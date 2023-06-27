@@ -15,24 +15,24 @@ Dalam dunia yang semakin dipenuhi dengan data, penting bagi kita untuk dapat mem
 Suatu brand ingin melakukan analisa terhadap penjualannya dan ingin mengetahui trend serta brand awareness terhadap produk mereka. agar dapat mengambil keputusan kedepannya apa yang harus di lakukan.
 
 ### Dataset
-![My Image](src/sample.png)
+![My Image](img/sample.png)
 
 kolom 'product_title' dan 'shipping_city' memiliki terlalu banyak kategori, oleh karena itu akan di buatkan kategori baru untuk di generealisasikan.
 kita tambahkan kolom 'Cat_product' yang merupakan jenis produk dengan mengambil kata ke-2 dari 'product_title',
 dan kolom 'prov' yang merupakan provinsi dari nama kota pengiriman 'shipping_city'
 
-![My Image](src/Sample(category).png)
+![My Image](img/Sample(category).png)
 
 ### Missing Value
 
-![My Image](src/missing.png)
+![My Image](img/missing.png)
 
 Terdapat value “Unknown” di kolom referrer_source yang dapat di artikan sebagai 
 Missing Value, yang selanjutnya akan di tangani dengan menggunakan modus.
 
 ### Duplicate Data
 
-![My Image](src/duplicate.png)
+![My Image](img/duplicate.png)
 
 Tidak terdapat data yang duplikat sehingga tidak perlu adanya tindak lanjutan.
 
@@ -40,7 +40,7 @@ Tidak terdapat data yang duplikat sehingga tidak perlu adanya tindak lanjutan.
 
 ### Frequency Category Product
 
-![My Image](src/product.png)
+![My Image](img/product.png)
 
 Kategori dengan jumlah pesanan tertinggi adalah kategori Blouse di ikuti dengan Dress, 
 dan kategori dengan pembelian terendah adalah Pashmina. 
@@ -52,7 +52,7 @@ ini.
 
 ### Frequency Category Province
 
-![My Image](src/prov.png)
+![My Image](img/prov.png)
 
 Provinsi dengan pemesanan tertinggi ada di kota Jawa Barat dan provinsi dengan 
 pemesanan terendah adalah Sulawesi tengah, Lampung, dan Kalimantan Selatan.
@@ -64,7 +64,7 @@ dapat meningkatakan brand awareness brand kita ke masyarakat Ibu kota Jakarta.
 
 ### Frequency Category Refference
 
-![My Image](src/reff.png)
+![My Image](img/reff.png)
 
 Penjualan terbanyak bersumber dari referensi sosial dan yang terendah adalah 
 referensi search. Dapat di simpulkan Produk kita lebih di kenal dari mulut ke mulut. 
@@ -74,14 +74,14 @@ masyarakat tau dan tertarik dengan brand kita.
 
 ### Relation of Order and Total Sales
 
-![My Image](src/order.png)
+![My Image](img/order.png)
 
 Tidak ada relasi atau tidak dapat di Tarik kesimpulan karena hampir semua penjualan 
 hanya menjual 1 barang, dan yang menjual 2 barang hanya sedikit.
 
 ### Frequency Based Referral Source for Each Category Product
 
-![My Image](src/reff.png)
+![My Image](img/reff.png)
 
 Dari plot di atas ada hal yang menarik, yaitu produk brooch tidak ada penjualan yang 
 berasal dari search, dapat di tarik kesimpulan kurangnya brand awareness di 
