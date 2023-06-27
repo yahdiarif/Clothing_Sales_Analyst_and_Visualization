@@ -11,11 +11,11 @@ Dalam dunia yang semakin dipenuhi dengan data, penting bagi kita untuk dapat mem
 - google colab
 
 ## Pre-Procesing
-### Problem Statement
+### 1.Problem Statement
 Suatu brand ingin melakukan analisa terhadap penjualannya dan ingin mengetahui trend serta brand awareness terhadap produk mereka. agar dapat mengambil keputusan kedepannya apa yang harus di lakukan.
 
-### Dataset
-![My Image](img/sample.png)
+### 2. Dataset
+![My Image](img/Sample.png)
 
 kolom 'product_title' dan 'shipping_city' memiliki terlalu banyak kategori, oleh karena itu akan di buatkan kategori baru untuk di generealisasikan.
 kita tambahkan kolom 'Cat_product' yang merupakan jenis produk dengan mengambil kata ke-2 dari 'product_title',
@@ -23,14 +23,14 @@ dan kolom 'prov' yang merupakan provinsi dari nama kota pengiriman 'shipping_cit
 
 ![My Image](img/Sample(category).png)
 
-### Missing Value
+### 3. Missing Value
 
 ![My Image](img/missing.png)
 
 Terdapat value “Unknown” di kolom referrer_source yang dapat di artikan sebagai 
 Missing Value, yang selanjutnya akan di tangani dengan menggunakan modus.
 
-### Duplicate Data
+### 4. Duplicate Data
 
 ![My Image](img/duplicate.png)
 
@@ -38,7 +38,7 @@ Tidak terdapat data yang duplikat sehingga tidak perlu adanya tindak lanjutan.
 
 ## Visualization and Analist
 
-### Frequency Category Product
+### 1. Frequency Category Product
 
 ![My Image](img/product.png)
 
@@ -50,7 +50,7 @@ pembelian terendah di berikan promo walaupun hanya membeli satu agar dapat
 menarik pembeli dan lebih di promosikan agar masyarakat lebih aware dengan produk 
 ini.
 
-### Frequency Category Province
+### 2. Frequency Category Province
 
 ![My Image](img/prov.png)
 
@@ -62,7 +62,7 @@ karenakan tingkat penduduk dan pusat perbelanjaan lebih banyak di Jakarta.
 Kita dappat meningkatkan promosi, iklan, atau kampanye tentang produk kita agar 
 dapat meningkatakan brand awareness brand kita ke masyarakat Ibu kota Jakarta.
 
-### Frequency Category Refference
+### 3. Frequency Category Refference
 
 ![My Image](img/reff.png)
 
@@ -72,14 +72,14 @@ Karena kuranganya brand awareness brand kita di masyarakat, kita dapat melakukan
 iklan dan kampanye untuk meningkatkan brand awareness serta kepercayaan ke 
 masyarakat tau dan tertarik dengan brand kita.
 
-### Relation of Order and Total Sales
+### 4. Relation of Order and Total Sales
 
 ![My Image](img/order.png)
 
 Tidak ada relasi atau tidak dapat di Tarik kesimpulan karena hampir semua penjualan 
 hanya menjual 1 barang, dan yang menjual 2 barang hanya sedikit.
 
-### Frequency Based Referral Source for Each Category Product
+### 5. Frequency Based Referral Source for Each Category Product
 
 ![My Image](img/reff.png)
 
