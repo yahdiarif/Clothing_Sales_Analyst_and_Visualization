@@ -11,7 +11,7 @@ Dalam dunia yang semakin dipenuhi dengan data, penting bagi kita untuk dapat mem
 - google colab
 
 ## Pre-Procesing
-### 1.Problem Statement
+### 1. Problem Statement
 Suatu brand ingin melakukan analisa terhadap penjualannya dan ingin mengetahui trend serta brand awareness terhadap produk mereka. agar dapat mengambil keputusan kedepannya apa yang harus di lakukan.
 
 ### 2. Dataset
